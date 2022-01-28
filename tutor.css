@@ -1,0 +1,148 @@
+body{
+    margin:0px;
+    background-color: seashell;
+}
+
+.navbar{
+    border-bottom:1px solid none;
+    box-shadow: 2px 2px 15px olive;
+    background-color:black;
+    border-radius: 3px;
+    height:10vh;
+    font-size: 40px;
+    color:chartreuse;
+    position:fixed;
+    top:0;
+    overflow:auto;
+    z-index:1;
+    width:100%;
+    padding-left: 15px;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 30px;
+   /* padding-right: 150px;*/
+}
+.row1{
+    display:flex;
+    flex-wrap: wrap;
+    overflow:auto ;
+}
+.img1{
+    
+    width:200px;
+    height:200px;
+}
+.content{
+    border:1px solid rgb(216 216 216);
+    margin-top: 130px;
+    overflow:auto ;
+}
+.image{
+    display:flex;
+    border:1px solid rgb(216 216 216);
+    padding-left: 10px;
+    margin: 15px;
+    height:200px;
+    overflow:auto;
+    overflow:auto ;
+}
+.row1:hover>.alter{
+   display:block;
+   overflow:auto ;
+}
+.row1b{
+    border:1px solid rgb(216 216 216);
+    margin-left: 7px;
+    overflow:auto;
+    position:relative;
+    width:700px;
+    overflow:auto ;
+}
+.row1bc{
+    border:1px solid rgb(216 216 216);
+    background-color: violet;
+    font-weight: 800;
+    width:90px;
+    height:20px;
+    text-align: center;
+    border-radius: 5px;
+    position:absolute;
+    top:25px;
+    right:30px;
+
+}
+.row1bc:hover{
+  cursor: pointer;
+}
+
+.row1ba{
+    position:absolute;
+    left:20px;
+    color:red;
+    text-decoration: underline;
+    top:0px;
+    overflow:auto ;
+}
+.row1bb{
+    position:absolute;
+    left:70px;
+    top:55px;
+    color:red;
+    font-weight: 800;
+    overflow:auto ;
+}
+.row1bd{
+    position:absolute;
+    left:20px;
+    top:75px;
+    color:yellowgreen;
+    font-weight: 700;
+    font-size: 17px;
+    overflow:auto ;
+}
+.row1be{
+    position:absolute;
+    left:20px;
+    top:95px;
+    color:yellowgreen;
+    font-weight: 700;
+    font-size: 17px;
+    overflow:auto ;
+}
+.row1bf{
+    position:absolute;
+    margin-top: 20px;
+    color:yellowgreen;
+    left:20px;
+    top:115px;
+    overflow:auto ;
+}
+.alter{
+    position:fixed;
+    right:0px;
+    top:150px;
+    display:none;
+    overflow:auto ;
+}
+.row1d{
+    border:5px solid rgb(216 216 216);
+    margin:auto;
+    overflow:auto ;
+}
+.row1d td{
+    background-color:slateblue;
+    margin:auto;
+    width:65px;
+    overflow:auto ;
+}
+.row1>tr{
+    margin:auto;
+    padding:auto;
+    overflow:auto ;
+}
+
+.row1d th{
+    width:65px;
+    margin:auto;
+    overflow:auto ;
+}
